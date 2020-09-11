@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.myaccounts" name="My Accounts Repository" version="1.0" provider-name="a4k-official">
+    <extension point="xbmc.addon.repository" name="My Accounts Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.myaccounts/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.myaccounts/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.myaccounts/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>My Accounts Repository</summary>
+        <description>Official home for the My Accounts module.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
