@@ -27,7 +27,7 @@ This function call will provide all available accounts as a dictionary for each 
 	'trakt': {'username': '', 'token': '', 'expires': '', 'refresh': ''}, 'imdb': {'user': ''}, 'easyNews': {'username': '', 'password': ''}, 'furk': {'username': '', 'api_key': '', 'password': ''},
 	'fanart_tv': {'api_key': ''}}`
 
-### myaccount.getTrakt()`
+### myaccount.getTrakt()
 Returns trakt only account info
 ```trakt': {'username': '', 'token': '', 'expires': '', 'refresh': ''}```
 
