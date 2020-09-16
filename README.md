@@ -83,16 +83,13 @@ imdb': {'user': ''}
 ```
 filepursuit: {'api_key': ''}
 
-
 ### myaccount.getFurk()
 ```
 furk: {'username': '', 'api_key': '', 'password': ''}
 
-
 ### myaccount.getEasyNews()
 ```
 easyNews: {'username': '', 'password': ''}
-
 
 ### myaccount.getOrro()
 ```
