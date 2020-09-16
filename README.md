@@ -77,20 +77,20 @@ imdb': {'user': ''}
 ### getAllScraper()
 ```
 {'ororo': {'password': '', 'email': ''}, 'filepursuit': {'api_key': ''}, 'easyNews': {'username': '', 'password': ''}, 'furk': {'username': '', 'api_key': '', 'password': ''}}
-
-
 ### getFilepursuit()
 ```
 filepursuit: {'api_key': ''}
-
 ### myaccount.getFurk()
 ```
 furk: {'username': '', 'api_key': '', 'password': ''}
-
 ### myaccount.getEasyNews()
 ```
-easyNews: {'username': '', 'password': ''}
 
+
+
+
+easyNews: {'username': '', 'password': ''}
 ### myaccount.getOrro()
+
 ```
 ororo: {'password': '', 'email': ''}
