@@ -22,10 +22,10 @@ You can use `import myaccounts` once the dependecy is added to your addon.  The 
 
 ### myaccount.getAll()
 This function call will provide all available accounts as a dictionary for each account handled.  If we called `accounts = myaccounts.getAll()` The returned data will be as follows.
-```accounts ={'premiumize': {'enabled': '', username': '', 'token': ''}, 'alldebrid': {'enabled': '', 'username': '', 'token': ''}, 'tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''},
+`accounts ={'premiumize': {'enabled': '', username': '', 'token': ''}, 'alldebrid': {'enabled': '', 'username': '', 'token': ''}, 'tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''},
 	'realdebrid': {'enabled': '', 'username': '', 'token': '', 'secret': '', 'refresh': '', 'client_id': ''}, 'ororo': {'password': '', 'email': ''}, 'tvdb': {'api_key': ''}, 'filepursuit': {'api_key': ''},
 	'trakt': {'username': '', 'token': '', 'expires': '', 'refresh': ''}, 'imdb': {'user': ''}, 'easyNews': {'username': '', 'password': ''}, 'furk': {'username': '', 'api_key': '', 'password': ''},
-	'fanart_tv': {'api_key': ''}}```
+	'fanart_tv': {'api_key': ''}}`
 
 ### myaccount.getTrakt()`
 Returns trakt only account info
@@ -34,7 +34,7 @@ Returns trakt only account info
 ### myaccount.getAllDebrid()
 Returns all debrid account information supported (currently All-Debrid, Premiumize.me, Real-Debrid)
 There is an addional key for each dictionary `'enabled'`.  This key could be used by the adon developer that the debrid service is temporarily disabled by the user.
-```{premiumize': {'enabled': '', 'username': '', 'token': ''}, 'alldebrid': {'enabled': '', 'username': '', 'token': ''}, 'realdebrid': {'enabled': '', 'username': '', 'token': '', 'secret': '', 'refresh': '', 'client_id': ''}}```
+`{premiumize': {'enabled': '', 'username': '', 'token': ''}, 'alldebrid': {'enabled': '', 'username': '', 'token': ''}, 'realdebrid': {'enabled': '', 'username': '', 'token': '', 'secret': '', 'refresh': '', 'client_id': ''}}`
 
 ### myaccount.getAD()
 `alldebrid': {'enabled': '', 'username': '', 'token': ''}`
@@ -49,7 +49,7 @@ There is an addional key for each dictionary `'enabled'`.  This key could be use
 `{'tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''}, 'tvdb': {'api_key': ''}, 'imdb': {'user': ''}, 'fanart_tv': {'api_key': ''}}`
 
 ### myaccount.getFanart_tv()
-`fanart_tv': {'api_key': ''}
+`fanart_tv': {'api_key': ''}`
 
 ### myaccount.getTMDb()
 `tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''}`
