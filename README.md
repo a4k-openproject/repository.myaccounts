@@ -37,29 +37,28 @@ There is an addional key for each dictionary `'enabled'`.  This key could be use
 ```{premiumize': {'enabled': '', 'username': '', 'token': ''}, 'alldebrid': {'enabled': '', 'username': '', 'token': ''}, 'realdebrid': {'enabled': '', 'username': '', 'token': '', 'secret': '', 'refresh': '', 'client_id': ''}}```
 
 ### myaccount.getAD()
- ```
- alldebrid': {'enabled': '', 'username': '', 'token': ''}
+`alldebrid': {'enabled': '', 'username': '', 'token': ''}`
  
-  ### myaccount.getPM()
- `premiumize': {'enabled': '', 'username': '', 'token': ''}
+### myaccount.getPM()
+`premiumize': {'enabled': '', 'username': '', 'token': ''}`
   
 ### myaccount.getRD()
-`realdebrid': {'enabled': '', 'username': '', 'token': '', 'secret': '', 'refresh': '', 'client_id': ''}
+`realdebrid': {'enabled': '', 'username': '', 'token': '', 'secret': '', 'refresh': '', 'client_id': ''}`
 
 ### myaccount.getAllMeta()
-`{'tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''}, 'tvdb': {'api_key': ''}, 'imdb': {'user': ''}, 'fanart_tv': {'api_key': ''}}
+`{'tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''}, 'tvdb': {'api_key': ''}, 'imdb': {'user': ''}, 'fanart_tv': {'api_key': ''}}`
 
 ### myaccount.getFanart_tv()
 `fanart_tv': {'api_key': ''}
 
 ### myaccount.getTMDb()
-`tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''}
+`tmdb': {'username': '', 'password': '', 'api_key': '', 'session_id': ''}`
 
 ### myaccount.getTVDb()
-`tvdb': {'api_key': ''}
+`tvdb': {'api_key': ''}`
 
 ### myaccount.getIMDb()
-`imdb': {'user': ''}
+`imdb': {'user': ''}`
 
 ### getAllScraper()
 `{'ororo': {'password': '', 'email': ''}, 'filepursuit': {'api_key': ''}, 'easyNews': {'username': '', 'password': ''}, 'furk': {'username': '', 'api_key': '', 'password': ''}}`
@@ -68,7 +67,7 @@ There is an addional key for each dictionary `'enabled'`.  This key could be use
 `filepursuit: {'api_key': ''}`
 
 ### myaccount.getFurk()
-`furk: {'username': '', 'api_key': '', 'password': ''}
+`furk: {'username': '', 'api_key': '', 'password': ''}`
 
 ### myaccount.getEasyNews()
 `easyNews: {'username': '', 'password': ''}`
