@@ -1,0 +1,3 @@
+[submodule "script.module.myaccounts"]
+	path = script.module.myaccounts
+	url = https://github.com/a4k-openproject/script.module.myaccounts
