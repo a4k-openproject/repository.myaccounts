@@ -10,7 +10,7 @@ Kodi developers one stop shop for common account information accessed under one 
 </dir>
 ```
 
-To add *My Accounts* as a dependecy
+To add *My Accounts* as a dependency
 add the following to your addon's addon.xml file between the `<requires></requires>` tag.
 
 `<import addon="script.module.myaccounts" version="1.0.0" />`
@@ -18,7 +18,7 @@ Addon developers can access *My Accounts* as simply as
 
 # How to call *My Accounts* settings 
 
-You can use `import myaccounts` once the dependecy is added to your addon.  The following lists the functions that can be called that will respond with a dictionary and the supplied key and value.
+You can use `import myaccounts` once the dependency is added to your addon.  The following lists the functions that can be called that will respond with a dictionary and the supplied key and value.
 
 ### myaccount.getAll()
 This function call will provide all available accounts as a dictionary for each account handled.  If we called `accounts = myaccounts.getAll()` The returned data will be as follows.
